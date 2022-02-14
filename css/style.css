@@ -1,3 +1,14 @@
+:root {
+    --blue-color: 45, 100, 230;
+    --dark-color: 31, 31, 31;
+    --ms-warning-color: 205, 61, 15;
+    --ms-secondary-color: 190, 188, 187;
+    --ms-btn-secondary-color: 217, 218, 220;
+    --font-base-color: 0,0,0;
+    --h-header-top: 40px;
+    --h-header-bottom: 100px;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -6,4 +17,28 @@
 
 .logo_sony{
     width: 60px;
+}
+
+.ms-chevron-down {
+    content: url("../img/chevron-down-solid.svg");
+    height: 0.8rem;
+}
+
+.ms-rounded {
+    border-radius: 1rem;
+}
+
+img.position-absolute {
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+#lg-header-lens:hover {
+    cursor: pointer;
+}
+
+.hover-border:hover {
+    border: 3px solid lightgrey;
+    cursor: pointer;
 }

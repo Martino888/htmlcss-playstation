@@ -1,25 +1,210 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Playstation</title>
     <!--bootstrap-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
     <!--style-css-->
     <link rel="stylesheet" href="css/style.css">
     <!--fontawesome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
+
 <body>
     <header>
-        <div class="container-fluid bg-dark">
+        <div class="container-fluid fixed-top bg-dark">
             <a href="#" class="d-flex justify-content-end p-2">
                 <img class="logo_sony" src="img/sony_logo.svg" alt="logo">
             </a>
         </div>
+        <!-- header-bottom -->
+        <div class="header-bottom bg-white fixed-top mt-4">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <!-- navbar brand -->
+                    <a class="navbar-brand" href="#">
+                        <img alt="Logo PlayStation" src="img/play_logo.svg">
+                    </a>
+                    <!-- navbar toggler -->
+                    <button class="navbar-toggler py-2" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <!-- collapse -->
+                    <div class="collapse navbar-collapse justify-content-lg-between" id="navbarScroll">
+                        <ul class="navbar-nav me-auto mt-2 my-lg-0 navbar-nav-scroll">
+                            <li class="nav-item d-flex mr-2">
+                                <a class="d-lg-none nav-link align-items-center active" href="#">Giochi<span
+                                        class="ml-2 ms-chevron-down"></span></a>
+                                <a class="d-none d-lg-flex nav-link align-items-center active" href="#dropdown"
+                                    role="button" data-bs-toggle="collapse" data-bs-target="#dropdown"
+                                    aria-controls="dropdown" aria-expanded="false">Giochi<span
+                                        class="ml-2 ms-chevron-down"></span></a>
+                            </li>
+                            <li class="nav-item d-flex align-items-center mr-2">
+                                <a class="d-lg-none nav-link align-items-center active " href="#">Hardware<span
+                                        class="ml-2 ms-chevron-down"></span></a>
+                                <a class="d-none d-lg-flex nav-link  align-items-center  active" href="#dropdown2"
+                                    role="button" data-bs-toggle="collapse" data-bs-target="#dropdown"
+                                    aria-controls="dropdown" aria-expanded="false">Hardware<span
+                                        class="ml-2 ms-chevron-down"></span></a>
+                            </li>
+                            <li class="nav-item d-flex align-items-center mr-2">
+                                <a class="d-lg-none nav-link align-items-center active" href="#">Servizi<span
+                                        class="ml-2 ms-chevron-down"></span></a>
+                                <a class="d-none d-lg-flex nav-link active  align-items-center" href="#dropdown"
+                                    role="button" data-bs-toggle="collapse" data-bs-target="#dropdown"
+                                    aria-controls="dropdown" aria-expanded="false">Servizi<span
+                                        class="ml-2 ms-chevron-down"></span></a>
+                            </li>
+                            <li class="nav-item d-flex align-items-center mr-2">
+                                <a class="d-lg-none nav-link align-items-center active " href="#">Novita´<span
+                                        class="ml-2 ms-chevron-down"></span></a>
+                                <a class="d-none d-lg-flex nav-link active  align-items-center" href="#dropdown"
+                                    role="button" data-bs-toggle="collapse" data-bs-target="#dropdown"
+                                    aria-controls="dropdown" aria-expanded="false">Novitá<span
+                                        class="ml-2 ms-chevron-down"></span></a>
+                            </li>
+                            <li class="nav-item d-flex align-items-center mr-2">
+                                <a class="d-lg-none nav-link align-items-center active " href="#">Fai acquisti<span
+                                        class="ml-2 ms-chevron-down"></span></a>
+                                <a class="d-none d-lg-flex align-items-center nav-link active" href="#dropdown"
+                                    role="button" data-bs-toggle="collapse" data-bs-target="#dropdown"
+                                    aria-controls="dropdown" aria-expanded="false">Fai acquisti<span
+                                        class="ml-2 ms-chevron-down"></span></a>
+                            </li>
+                            <li class="nav-item d-flex mr-2  align-items-center">
+                                <a class="d-lg-none nav-link -items-center active" href="#">Supporto<span
+                                        class="ml-2 ms-chevron-down"></span></a>
+                                <a class="d-none d-lg-flex align-items-center nav-link active" href="#dropdown"
+                                    role="button" data-bs-toggle="collapse" data-bs-target="#dropdown"
+                                    aria-controls="dropdown" aria-expanded="false">Supporto<span
+                                        class="ml-2 ms-chevron-down"></span></a>
+                            </li>
+                            <li class="nav-item d-flex d-lg-none align-items-center mr-2">
+                                <a class="nav-link active d-flex align-items-center" href="#">My Playstation<span
+                                        class="ms-chevron-down"></span></a>
+                            </li>
+                        </ul>
+                        <form class="d-flex flex-column flex-lg-row p-lg-0 m-lg-0">
+                            <div class="d-none d-lg-flex align-items-center">
+                                <a class="d-flex align-items-center nav-link text-dark active" href="#dropdown"
+                                    role="button" data-bs-toggle="collapse" data-bs-target="#dropdown"
+                                    aria-controls="dropdown" aria-expanded="false">My
+                                    Playstation
+                                    <span class="ms-chevron-down ml-2"></span>
+                                </a>
+                            </div>
+                            <div class="row">
+                                <div class="col-6">
+                                    <button class="d-lg-none btn ms-btn-dark ms-rounded w-100 mb-2" type="submit">
+                                        <span>Accedi</span>
+                                    </button>
+                                </div>
+                            </div>
+                            <button
+                                class="d-none d-lg-block btn ms-btn-dark ms-rounded py-1 px-2 my-auto align-self-start"
+                                type="submit">
+                                <span>Accedi</span>
+                            </button>
+                            <div class="position-relative d-lg-none">
+                                <input class=" form-control pl-5" type="search">
+                                <img alt="lens" class="position-absolute py-1" src="img/lens.svg">
+                            </div>
+                            <svg class="d-none d-lg-flex align-self-center ml-2" id="lg-header-lens" width="1.1rem"
+                                height="1.1rem" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 50 50"
+                                data-di-rand="1620204969111">
+                                <g>
+                                    <path
+                                        d="M8,20.913 C8,14.344 13.344,9 19.913,9 C26.482,9 31.827,14.344 31.827,20.913 C31.827,27.482 26.482,32.827 19.913,32.827 C13.344,32.827 8,27.482 8,20.913 M45.112,43.585 L32.346,30.82 C34.518,28.099 35.827,24.658 35.827,20.913 C35.827,12.139 28.688,5 19.913,5 C11.139,5 4,12.139 4,20.913 C4,29.688 11.139,36.827 19.913,36.827 C23.503,36.827 26.808,35.618 29.474,33.604 L42.284,46.413 C42.674,46.804 43.186,46.999 43.698,46.999 C44.209,46.999 44.721,46.804 45.112,46.413 C45.502,46.023 45.698,45.511 45.698,44.999 C45.698,44.488 45.502,43.976 45.112,43.585">
+                                    </path>
+                                </g>
+                            </svg>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+            <div class="collapse" id="dropdown">
+                <div class="container-fluid">
+                    <div class="row justify-content-center">
+                        <div class="col-1 d-flex flex-column align-items-center hover-border">
+                            <img alt="Icona PS5" class="image-fluid w-100" src="img/play-menu-ico.png">
+                            <span>PS5</span>
+                        </div>
+                        <div class="col-1 d-flex flex-column align-items-center hover-border">
+                            <img alt="Icona PS5" class="image-fluid w-100" src="img/play-menu-ico.png">
+                            <span>PS5</span>
+                        </div>
+                        <div class="col-1 d-flex flex-column align-items-center hover-border">
+                            <img alt="Icona PS5" class="image-fluid w-100" src="img/play-menu-ico.png">
+                            <span>PS5</span>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <hr class="m-0 bg-light">
+                    </div>
+                    <div class="row justify-content-center">
+                        <ul class="list-inline">
+                            <li class="list-inline-item">
+                                <div class="d-flex align-items-center">
+                                    <div class="disc-blue mr-1"></div>
+                                    <a class="link text-dark">Sub Link</a>
+                                </div>
+                            </li>
+                            <li class="list-inline-item">
+                                <div class="d-flex align-items-center">
+                                    <div class="disc-blue mr-1"></div>
+                                    <a class="link text-dark">Sub Link</a>
+                                </div>
+                            </li>
+                            <li class="list-inline-item">
+                                <div class="d-flex align-items-center">
+                                    <div class="disc-blue mr-1"></div>
+                                    <a class="link text-dark">Sub Link</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
     </header>
+   
+    Harum magni ipsam in facilis temporibus atque eveniet, fuga quisquam mollitia alias rerum debitis? Quisquam quidem doloremque unde, labore, saepe vitae odio ex eligendi adipisci sunt libero. Cupiditate, ex accusantium?
+    Doloribus excepturi expedita obcaecati error quae voluptatem rem nobis totam assumenda vero culpa provident laborum sequi itaque voluptate quas, animi nulla ex voluptates impedit sunt saepe tenetur. Corporis, dignissimos quia!
+    Omnis, facere non. Accusamus quo doloribus vel est inventore aliquid obcaecati ut impedit natus nulla iste quibusdam nobis delectus omnis architecto quod, sequi rerum porro fugiat tempora modi necessitatibus. Adipisci?
+    Iste, totam non facilis animi eveniet quas corrupti cumque assumenda sapiente similique, velit tempora eos? Nobis, temporibus? Voluptatibus est repellendus sed! Quod facilis vero laborum nam amet nihil recusandae in.
+    Quaerat, at porro! Culpa quos odit possimus voluptatum atque sequi hic ipsam debitis adipisci ipsum officiis eius, nisi fugit placeat earum labore ut voluptates id ad itaque consequuntur sit doloribus.
+    Doloribus repudiandae ea ratione vel enim quaerat, eos quod in nemo eaque natus dicta exercitationem aspernatur distinctio? Voluptates, omnis repellendus? Suscipit quo rerum modi illo rem temporibus expedita quisquam aspernatur.
+    Esse eius maiores, minima tempore odio vero dignissimos! Exercitationem, culpa iure. Autem dolor alias reiciendis hic ipsa iure. Libero animi porro odit eos natus distinctio illum laudantium ad saepe obcaecati.
+    Delectus amet esse maxime tenetur dignissimos quidem quibusdam dolorem natus eos voluptates magni eaque obcaecati ipsa explicabo earum reiciendis dolores molestias iure minima sapiente enim velit, accusantium architecto. Deleniti, accusamus?
+    Officia, odio aliquam architecto minus, soluta aperiam expedita quisquam quis laborum labore quaerat sunt error eos natus ipsum tenetur, esse ad fugit beatae maiores ea laboriosam sed assumenda! Omnis, corporis.
+    Repudiandae, nulla adipisci? Suscipit expedita atque numquam veritatis architecto beatae possimus. Neque nobis doloremque hic minus eveniet architecto, optio porro debitis error veniam id tempora dolorem non facere harum atque?
+    Et consequuntur cupiditate, consequatur itaque expedita, repudiandae qui perferendis ea quos asperiores ipsa atque mollitia eius minima maxime temporibus esse vero doloremque? Iusto molestias praesentium accusamus rerum porro corrupti exercitationem!
+    Saepe officia eius corrupti maxime rerum voluptatibus minus, a fuga consequuntur quas, numquam distinctio, optio eum dolorem necessitatibus blanditiis magni repudiandae natus eveniet aliquid excepturi suscipit autem? Perspiciatis, iste nobis!
+    Aliquid, tempora? Praesentium aspernatur, voluptas, quam porro deserunt adipisci natus repudiandae inventore rerum facere reiciendis suscipit aliquam rem impedit! Corrupti rerum sit aspernatur. Eaque id expedita distinctio eos. Quisquam, tempora!
+    Optio nostrum, atque sed quis necessitatibus omnis sunt iure amet nulla voluptatibus molestias nobis tempora in sit. Alias dignissimos, impedit debitis ullam officia animi vel repellendus, deserunt enim atque commodi.
+    Facere nihil labore, temporibus voluptatem nostrum omnis exercitationem vero deleniti nesciunt harum. Omnis eligendi fugit quas fuga mollitia alias, neque sequi laudantium possimus voluptates natus, suscipit quo provident culpa assumenda.
+    Voluptates cupiditate quis ab eos porro non! Dolorem necessitatibus ad, excepturi fugiat natus, perferendis aspernatur, mollitia dolores doloremque vitae expedita obcaecati cumque? Amet quibusdam, asperiores temporibus quisquam voluptas sint autem.
+    Consequuntur nam unde, quam eius quia nostrum possimus quis quas vero, sint quasi modi architecto quae. In nesciunt soluta asperiores illo dolor quae sed deserunt perspiciatis quia iure. Adipisci, dolor!
+    Iure culpa, provident eum cumque modi veritatis reprehenderit deserunt quod deleniti, asperiores autem illum corrupti aliquid optio obcaecati quas eligendi unde velit corporis ratione quisquam voluptatibus, ipsa sit. Eveniet, omnis.
+    Eveniet expedita rem et neque commodi beatae id consequuntur tempora? Adipisci pariatur, explicabo porro omnis quod rem autem expedita at illo qui quibusdam quisquam inventore quae odit? Nostrum, nesciunt eos!
+    Dicta iure in repudiandae dolor nostrum laborum illo deserunt quisquam tenetur commodi nesciunt velit nisi odit dolorum animi delectus quis, et ipsa vitae voluptatem, corporis iste tempore. Temporibus, itaque sunt.
+    Saepe hic ipsam aspernatur eligendi dolorem, assumenda dignissimos dolores at! Voluptate dolores ducimus dolorem dolorum mollitia laborum consequatur quis sequi numquam nemo, magnam architecto corporis voluptatibus nihil aspernatur, odit nostrum?
+    Illo nesciunt aliquid minima laborum consequuntur sequi magnam! In placeat nihil, nostrum sunt tempore minus iusto repudiandae a eaque, assumenda architecto laborum libero, doloremque quibusdam quam exercitationem incidunt nesciunt. Ducimus?
+    Ad quisquam doloremque, eius nulla aperiam odit dolor reprehenderit voluptates culpa facere qui aliquid excepturi! Enim voluptatem eius, eos provident voluptates nisi, corrupti, doloribus unde aliquam adipisci explicabo porro commodi.
+    Itaque inventore, dolor corporis a, molestiae est maiores ut illo, mollitia quod cumque delectus. At cumque minus reprehenderit. Quasi labore nam dolor recusandae qui obcaecati, dicta blanditiis fugit inventore error.
+    Quis, neque blanditiis aliquam distinctio ipsa enim at quod facere unde excepturi consequatur repellat ratione quibusdam necessitatibus culpa tenetur non expedita, quos rem dolorum magni suscipit odio. Eaque, earum ab!
+    Expedita aperiam enim assumenda consequatur ducimus reiciendis exercitationem nisi facere animi distinctio fugit, minus quia libero iste! At recusandae vero, a harum tempora totam quaerat dignissimos. Magni esse nesciunt nulla!
 </body>
+
 </html>
