@@ -66,4 +66,8 @@ main > header img:hover {
     transform: translateY(-10px);
     cursor: pointer;
 }
+/* console ps5*/
 
+.whidt_mg{
+    width: 11.5em;
+}
