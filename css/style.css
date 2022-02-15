@@ -71,3 +71,9 @@ main > header img:hover {
 .whidt_mg{
     width: 11.5em;
 }
+
+.opac_mg:hover{
+    opacity: 60%;
+    transform: translateY(-10px);
+    cursor: pointer;
+}
