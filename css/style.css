@@ -77,3 +77,25 @@ main > header img:hover {
     transform: translateY(-10px);
     cursor: pointer;
 }
+
+.hr_mg:hover{
+    color: blue;
+    display: block;
+    height: 3px;
+}
+
+/*hero*/
+
+.hero{
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+    height: 700px;
+    margin-top:100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.logo_2{
+    width: 13em;
+}
