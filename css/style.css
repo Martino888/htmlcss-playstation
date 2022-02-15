@@ -100,8 +100,14 @@ main > header img:hover {
     width: 13em;
 }
 
-/*play plus +*/
+/*play plus+ */
 
 .bg_grey{
     background-color: rgb(190, 188, 187);
 }
+
+/*play NOW */
+.bg_blu{
+    background-color: rgb(23, 28, 57);
+}
+
