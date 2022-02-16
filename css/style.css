@@ -62,6 +62,11 @@ img.position-absolute {
     color: blue;
 }
 
+.safe_1:hover{
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+
 main > header img:hover {
     transform: translateY(-10px);
     cursor: pointer;
