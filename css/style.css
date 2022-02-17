@@ -112,21 +112,11 @@ main>header img:hover {
     width: 11.5em;
 }
 
-.tras_parent {
-    background-color: blue;
-    height: 2px;
-    border: 1px solid blue;
-    display: none;
-}
-
 .opac_mg:hover {
     opacity: 60%;
     transform: translateY(-10px);
     cursor: pointer;
-}
-
-.opac_mg:hover .tras_parent {
-    display: block;
+    border-bottom: blue solid ;
 }
 
 /*hero*/
